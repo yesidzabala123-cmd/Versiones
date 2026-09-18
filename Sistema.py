@@ -9,7 +9,7 @@ while True:
 
     # Verificar si la persona ya votó
     if documento in votantes:
-        print("❌ Esta persona ya votó. No puede votar nuevamente.")
+        print(" Esta persona ya votó. No puede votar nuevamente.")
     else:
         voto = input("Ingrese su voto: ")
 
